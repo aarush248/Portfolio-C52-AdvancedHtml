@@ -1,0 +1,104 @@
+h1{
+    color:darkslategrey
+}
+
+body{
+    background-color:#404090
+}
+
+.Header{
+   border: solid;
+    
+}
+/*.Header *{
+    /*border: solid;
+    
+}*/
+
+/* Now we are customizing links*/
+
+a:link{
+    color: black;
+    font-style:italic;
+    font-size: 35px;
+    }
+
+a:hover{
+    color: darkslategray;
+}
+
+a:visited{
+    font-size: 20px;
+    color:red;
+    font-style:oblique;
+}
+
+.HeaderJr{
+    padding: 30px;
+    padding-bottom: 10px;
+    font-style: italic;
+    font-size: 30px;
+    background-color:#ffffff;
+    display:flex;
+    justify-content:center;
+    /*flex-direction:column*/;
+}
+
+.intro{
+    border-color: #000000;
+}
+
+.menu{
+    background-color:#ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.games{
+    background-color: black;
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.footer{
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.footer :hover img{
+    opacity: 0.5;
+}
+
+.item{
+    position: relative;
+}
+
+.item:hover img{
+    opacity: 0.5;
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   opacity: 0;
+}
+
+.item :hover p{
+    opacity: 1;
+}
+
+h2,p{
+    text-align: center;
+}
+
+/**{
+    border:solid
+}*/
